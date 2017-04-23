@@ -1,0 +1,25 @@
+Punto 1(AddMatrix)
+* La inicialización de la matriz 'result' es incorrecta. Y Las dimensiones de esa matriz?
+* La validación de las matrices es correcta.
+* La iteración es válida, pero la instrucción ni siquiera se aplica a la matriz.
+Total: 0.3 / 1.0
+
+Punto 2(MultiplyMatrixByScalar)
+* scalar = x. De dónde sale la x? 'scalar' es un parámetro, no hay que igualarlo a nada porque este ya trae un valor.
+* En general el acercamiento es correcto. No obstante, no hay necesidad de cubrir un caso especial para multiplicar la matriz por 0. Igual el código, sintácticamente, no tiene sentido.
+* La asignación de las posiciones de la matriz 'result' es incorrecta.
+Total: 0.3 / 1.0
+
+Punto 3(MultiplyMatrices)
+* No presenta solución.
+Total: 0.0 / 2.0
+
+Punto 4(MixMatrix)
+* La validación de las matrices es correcta.
+* La inicialización de la matriz 'result' es incorrecta.
+* En general el acercamiento es válido. Las validaciones de 'i' y 'j' se hacen dentro de los ciclos (afuera no existen). La aplicación de la diagonal es correcta, pero las demás no, porque no se debe aplicar 'i' o 'j', sino el elemento de la posición [i,j] de la matriz correspondiente, de acuerdo a la definición de la operación.
+Total: 0.5 / 1.0
+
+Total evaluación: 1.1 / 5.0
+
+NOTA: Maya... Puse la forma de inicializar las matrices en el tablero durante el examen. Qué pasó?
